@@ -35,7 +35,7 @@ $(document).ready(function() {
 			processData: false,
     	contentType: false,
 			dataType: 'json',
-			timeout: 30000,
+			timeout: 300000,
 			data: formData,
 			success: function(data) {
 				if (data.status == 'successful') {

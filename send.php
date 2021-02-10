@@ -47,7 +47,7 @@ if (mb_strlen($name, 'UTF-8') <= 0 || mb_strlen($name, 'UTF-8') > 128) {
 	$response['error']['description'] = "The parameter 'name' is wrong";
 	goto end;
 }
-if (mb_strlen($spitzname, 'UTF-8') <= 0 || mb_strlen($spitzname, 'UTF-8') > 128) {
+if (mb_strlen($spitzname, 'UTF-8') > 128) {
 	$response['error']['category'] = 'Parameter error';
 	$response['error']['description'] = "The parameter 'spitzname' is wrong";
 	goto end;

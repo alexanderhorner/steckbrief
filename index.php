@@ -60,7 +60,7 @@
 
 					<div class="form-group">
 						<label for="name">Spitzname:</label>
-						<input required name="spitzname" maxlength="128" type="text" class="form-control" id="spitzname" placeholder="Spitzname">
+						<input name="spitzname" maxlength="128" type="text" class="form-control" id="spitzname" placeholder="Spitzname">
 					</div>
 
 					<div class="form-group">
